@@ -1,0 +1,617 @@
+% This file was created with JabRef 2.7b.
+% Encoding: UTF-8
+
+@ARTICLE{Froncisz2008,
+  author = {Wojciech Froncisz and Theodore G Camenisch and Joseph J Ratke and
+	James R Anderson and Witold K Subczynski and Robert A Strangeway
+	and Jason W Sidabras and James S Hyde},
+  title = {Saturation recovery EPR and ELDOR at W-band for spin labels.},
+  journal = {J Magn Reson},
+  year = {2008},
+  volume = {193},
+  pages = {297--304},
+  number = {2},
+  month = {Aug},
+  __markedentry = {[jsidabra:6]},
+  abstract = {A reference arm W-band (94 GHz) microwave bridge with two sample-irradiation
+	arms for saturation recovery (SR) EPR and ELDOR experiments is described.
+	Frequencies in each arm are derived from 2 GHz synthesizers that
+	have a common time-base and are translated to 94 GHz in steps of
+	33 and 59 GHz. Intended applications are to nitroxide radical spin
+	labels and spin probes in the liquid phase. An enabling technology
+	is the use of a W-band loop-gap resonator (LGR) [J.W. Sidabras, R.R.
+	Mett, W. Froncisz, T.G. Camenisch, J.R. Anderson, J.S. Hyde, Multipurpose
+	EPR loop-gap resonator and cylindrical TE(011) cavity for aqueous
+	samples at 94 GHz, Rev. Sci. Instrum. 78 (2007) 034701]. The high
+	efficiency parameter (8.2 GW(-1/2) with sample) permits the saturating
+	pump pulse level to be just 5 mW or less. Applications of SR EPR
+	and ELDOR to the hydrophilic spin labels 3-carbamoyl-2,2,5,5-tetra-methyl-3-pyrroline-1-yloxyl
+	(CTPO) and 2,2,6,6,-tetramethyl-4-piperidone-1-oxyl (TEMPONE) are
+	described in detail. In the SR ELDOR experiment, nitrogen nuclear
+	relaxation as well as Heisenberg exchange transfer saturation from
+	pumped to observed hyperfine transitions. SR ELDOR was found to be
+	an essential method for measurements of saturation transfer rates
+	for small molecules such as TEMPONE. Free induction decay (FID) signals
+	for small nitroxides at W-band are also reported. Results are compared
+	with multifrequency measurements of T(1e) previously reported for
+	these molecules in the range of 2-35 GHz [J.S. Hyde, J.-J. Yin, W.K.
+	Subczynski, T.G. Camenisch, J.J. Ratke, W. Froncisz, Spin label EPR
+	T(1) values using saturation recovery from 2 to 35 GHz. J. Phys.
+	Chem. B 108 (2004) 9524-9529]. The values of T(1e) decrease at 94
+	GHz relative to values at 35 GHz.},
+  doi = {10.1016/j.jmr.2008.05.008},
+  institution = {Department of Biophysics, Medical College of Wisconsin, 8701 Watertown
+	Plank Road, P.O. Box 26509, Milwaukee, WI 53226-0509, USA.},
+  keywords = {Electromagnetic Phenomena, instrumentation/methods; Electron Spin
+	Resonance Spectroscopy, instrumentation/methods; Equipment Design;
+	Equipment Failure Analysis; Microwaves; Spin Labels},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jsidabra},
+  pii = {S1090-7807(08)00164-X},
+  pmid = {18547848},
+  timestamp = {2013.02.10},
+  url = {http://dx.doi.org/10.1016/j.jmr.2008.05.008}
+}
+
+@ARTICLE{He2011,
+  author = {Xiaoming He and Jiang Gui and Thomas P Matthews and Benjamin B Williams
+	and Steven G Swarts and Oleg Grinberg and Jason Sidabras and Dean
+	E Wilcox and Harold M Swartz},
+  title = {Advances towards using finger/toenail dosimetry to triage a large
+	population after potential exposure to ionizing radiation.},
+  journal = {Radiat Meas},
+  year = {2011},
+  volume = {46},
+  pages = {882--887},
+  number = {9},
+  month = {Sep},
+  __markedentry = {[jsidabra:6]},
+  abstract = {Rapid and accurate retrospective dosimetry is of critical importance
+	and strategic value for the emergency medical response to a large-scale
+	radiological/nuclear event. One technique that has the potential
+	for rapid and accurate dosimetry measurements is electron paramagnetic
+	resonance (EPR) spectroscopy of relatively stable radiation-induced
+	signals (RIS) in fingernails and toenails. Two approaches are being
+	developed for EPR nail dosimetry. In the approach using ex vivo measurements
+	on nail clippings, accurate estimation of the dose-dependent amplitude
+	of the RIS is complicated by the presence of mechanically-induced
+	signals (MIS) that are generated during the nail clipping. Recent
+	developments in ex vivo nail dosimetry, including a thorough characterization
+	of the MIS and an appreciation of the role of hydration and the development
+	of effective analytic techniques, have led to improvements in the
+	accuracy and precision of this approach. An in vivo nail dosimetry
+	approach is also very promising, as it eliminates the problems of
+	MIS from the clipping and it has the potential to be an effective
+	and efficient approach for field deployment. Two types of EPR resonators
+	are being developed for in vivo measurements of fingernails and toenails.},
+  doi = {10.1016/j.radmeas.2011.05.016},
+  institution = {Dartmouth Medical School, Hanover, NH 03755.},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jsidabra},
+  pmid = {22125410},
+  timestamp = {2013.02.10},
+  url = {http://dx.doi.org/10.1016/j.radmeas.2011.05.016}
+}
+
+@ARTICLE{Hyde2009,
+  author = {James S Hyde and Brian Bennett and Eric D Walter and Glenn L Millhauser
+	and Jason W Sidabras and William E Antholine},
+  title = {EPR of Cu2+ prion protein constructs at 2 GHz using the g(perpendicular)
+	region to characterize nitrogen ligation.},
+  journal = {Biophys J},
+  year = {2009},
+  volume = {96},
+  pages = {3354--3362},
+  number = {8},
+  month = {Apr},
+  __markedentry = {[jsidabra:6]},
+  abstract = {A double octarepeat prion protein construct, which has two histidines,
+	mixed with copper sulfate in a 3:2 molar ratio provides at most three
+	imidazole ligands to each copper ion to form a square-planar Cu(2+)
+	complex. This work is concerned with identification of the fourth
+	ligand. A new (to our knowledge) electron paramagnetic resonance
+	method based on analysis of the intense features of the electron
+	paramagnetic resonance spectrum in the g( perpendicular) region at
+	2 GHz is introduced to distinguish between three and four nitrogen
+	ligands. The methodology was established by studies of a model system
+	consisting of histidine imidazole ligation to Cu(2+). In this spectral
+	region at 2 GHz (S-band), g-strain and broadening from the possible
+	rhombic character of the Zeeman interaction are small. The most intense
+	line is identified with the M(I) = +1/2 extra absorption peak. Spectral
+	simulation demonstrated that this peak is insensitive to cupric A(x)
+	and A(y) hyperfine interaction. The spectral region to the high-field
+	side of this peak is uncluttered and suitable for analysis of nitrogen
+	superhyperfine couplings to determine the number of nitrogens. The
+	spectral region to the low-field side of the intense extra absorption
+	peak in the g( perpendicular) part of the spectrum is sensitive to
+	the rhombic distortion parameters A(x) and A(y). Application of the
+	method to the prion protein system indicates that two species are
+	present and that the dominant species contains four nitrogen ligands.
+	A new loop-gap microwave resonator is described that contains approximately
+	1 mL of frozen sample.},
+  doi = {10.1016/j.bpj.2009.01.034},
+  institution = {Department of Biophysics, Medical College of Wisconsin, Milwaukee,
+	Wisconsin, USA.},
+  keywords = {Absorption; Computer Simulation; Copper Sulfate, chemistry; Copper,
+	chemistry; Electron Spin Resonance Spectroscopy, methods; Histidine,
+	analogs /&/ derivatives/chemistry; Nitrogen, chemistry; Organometallic
+	Compounds, chemistry; Prions, chemistry; Spectrum Analysis},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jsidabra},
+  pii = {S0006-3495(09)00509-8},
+  pmid = {19383478},
+  timestamp = {2013.02.10},
+  url = {http://dx.doi.org/10.1016/j.bpj.2009.01.034}
+}
+
+@ARTICLE{Hyde2007,
+  author = {James S Hyde and Wojciech Froncisz and Jason W Sidabras and Theodore
+	G Camenisch and James R Anderson and Robert A Strangeway},
+  title = {Microwave frequency modulation in CW EPR at W-band using a loop-gap
+	resonator.},
+  journal = {J Magn Reson},
+  year = {2007},
+  volume = {185},
+  pages = {259--263},
+  number = {2},
+  month = {Apr},
+  __markedentry = {[jsidabra:6]},
+  abstract = {Loop-gap resonator (LGR) technology has been extended to W-band (94GHz).
+	One output of a multiarm Q-band (35GHz) EPR bridge was translated
+	to W-band for sample irradiation by mixing with 59 GHz; similarly,
+	the EPR signal was translated back to Q-band for detection. A cavity
+	resonant in the cylindrical TE011 mode suitable for use with 100
+	kHz field modulation has also been developed. Results using microwave
+	frequency modulation (FM) at 50 kHz as an alternative to magnetic
+	field modulation are described. FM was accomplished by modulating
+	a varactor coupled to the 59 GHz oscillator. A spin-label study of
+	sensitivity was performed under conditions of overmodulation and
+	gamma2H1(2)T1T2<1. EPR spectra were obtained, both absorption and
+	dispersion, by lock-in detection at the fundamental modulation frequency
+	(50 kHz), and also at the second and third harmonics (100 and 150
+	kHz). Source noise was deleterious in first harmonic spectra, but
+	was very low in second and third harmonic spectra. First harmonic
+	microwave FM was transferred to microwave modulation at second and
+	third harmonics by the spins, thus satisfying the "transfer of modulation"
+	principle. The loaded Q-value of the LGR with sample was 90 (i.e.,
+	a bandwidth between 3 dB points of about 1 GHz), the resonator efficiency
+	parameter was calculated to be 9.3 G at one W incident power, and
+	the frequency deviation was 11.3 MHz p-p, which is equivalent to
+	a field modulation amplitude of 4 G. W-band EPR using an LGR is a
+	favorable configuration for microwave FM experiments.},
+  doi = {10.1016/j.jmr.2007.01.002},
+  institution = {Department of Biophysics, Medical College of Wisconsin, Milwaukee,
+	WI 53226-0509, USA. jshyde@mcw.edu},
+  keywords = {Electron Spin Resonance Spectroscopy, instrumentation/methods; Equipment
+	Design; Equipment Failure Analysis; Microwaves; Reproducibility of
+	Results; Sensitivity and Specificity; Signal Processing, Computer-Assisted,
+	instrumentation; Telecommunications, instrumentation; Transducers},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jsidabra},
+  pii = {S1090-7807(07)00004-3},
+  pmid = {17267251},
+  timestamp = {2013.02.10},
+  url = {http://dx.doi.org/10.1016/j.jmr.2007.01.002}
+}
+
+@ARTICLE{Kittell2011,
+  author = {Aaron W Kittell and Theodore G Camenisch and Joseph J Ratke and Jason
+	W Sidabras and James S Hyde},
+  title = {Detection of undistorted continuous wave (CW) electron paramagnetic
+	resonance (EPR) spectra with non-adiabatic rapid sweep (NARS) of
+	the magnetic field.},
+  journal = {J Magn Reson},
+  year = {2011},
+  volume = {211},
+  pages = {228--233},
+  number = {2},
+  month = {Aug},
+  __markedentry = {[jsidabra:6]},
+  abstract = {A continuous wave (CW) electron paramagnetic resonance (EPR) spectrum
+	is typically displayed as the first harmonic response to the application
+	of 100 kHz magnetic field modulation, which is used to enhance sensitivity
+	by reducing the level of 1/f noise. However, magnetic field modulation
+	of any amplitude causes spectral broadening and sacrifices EPR spectral
+	intensity by at least a factor of two. In the work presented here,
+	a CW rapid-scan spectroscopic technique that avoids these compromises
+	and also provides a means of avoiding 1/f noise is developed. This
+	technique, termed non-adiabatic rapid sweep (NARS) EPR, consists
+	of repetitively sweeping the polarizing magnetic field in a linear
+	manner over a spectral fragment with a small coil at a repetition
+	rate that is sufficiently high that receiver noise, microwave phase
+	noise, and environmental microphonics, each of which has 1/f characteristics,
+	are overcome. Nevertheless, the rate of sweep is sufficiently slow
+	that adiabatic responses are avoided and the spin system is always
+	close to thermal equilibrium. The repetitively acquired spectra from
+	the spectral fragment are averaged. Under these conditions, undistorted
+	pure absorption spectra are obtained without broadening or loss of
+	signal intensity. A digital filter such as a moving average is applied
+	to remove high frequency noise, which is approximately equivalent
+	in bandwidth to use of an integrating time constant in conventional
+	field modulation with lock-in detection. Nitroxide spectra at L-
+	and X-band are presented.},
+  doi = {10.1016/j.jmr.2011.06.004},
+  institution = {National Biomedical EPR Center, Department of Biophysics, Medical
+	College of Wisconsin, 8701 Watertown Plank Road, Milwaukee, WI 53226,
+	USA.},
+  keywords = {Algorithms; Cyclic N-Oxides, chemistry; Data Interpretation, Statistical;
+	Electromagnetic Fields; Electron Spin Resonance Spectroscopy, methods/statistics
+	/&/ numerical data; Indicators and Reagents; Nitrogen Oxides, chemistry;
+	Signal Processing, Computer-Assisted; Spin Labels},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jsidabra},
+  pii = {S1090-7807(11)00191-1},
+  pmid = {21741868},
+  timestamp = {2013.02.10},
+  url = {http://dx.doi.org/10.1016/j.jmr.2011.06.004}
+}
+
+@ARTICLE{Mett2011,
+  author = {R. R. Mett and J. W. Sidabras and J. R. Anderson and J. S. Hyde},
+  title = {Hyperbolic-cosine waveguide tapers and oversize rectangular waveguide
+	for reduced broadband insertion loss in W-band electron paramagnetic
+	resonance spectroscopy.},
+  journal = {Rev Sci Instrum},
+  year = {2011},
+  volume = {82},
+  pages = {074704},
+  number = {7},
+  month = {Jul},
+  __markedentry = {[jsidabra:6]},
+  abstract = {The two-way insertion loss of a 1 m length of waveguide was reduced
+	by nearly 5 dB over a 4\% bandwidth at W-band (94 GHz) for an electron
+	paramagnetic resonance (EPR) spectrometer relative to WR10 waveguide.
+	The waveguide has an oversize section of commercially available rectangular
+	WR28 and a novel pair of tapers that vary in cross section with axial
+	position according to a hyperbolic-cosine (HC) function. The tapers
+	connect conventional rectangular WR10 waveguide to the WR28. For
+	minimum loss, the main mode electric field is parallel to the long
+	side of the WR28. Using mode coupling theory, the position of maximum
+	flare (inflection point) in the taper was optimized with respect
+	to the coupling to higher order modes and the reflection of the main
+	mode. The optimum inflection point position is about one-tenth of
+	the taper length from the small end of the taper. Reflection and
+	coupling were reduced by about 20 dB relative to a pyramidal (linear)
+	taper of the same length. Comb-like dips in the transmission coefficient
+	produced by resonances of the higher order modes in the oversize
+	section were about 0.03 dB. Specially designed high-precision, adjustable
+	WR28 flanges with alignment to about 5 μm were required to keep higher
+	order mode amplitudes arising from the flanges comparable to those
+	from the HC tapers. Minimum return loss was about 30 dB. This paper
+	provides a foundation for further optimization, if needed. Methods
+	are not specific to EPR or the microwave frequency band.},
+  doi = {10.1063/1.3607432},
+  institution = {Department of Biophysics, Medical College of Wisconsin, Milwaukee,
+	Wisconsin 53226-0509, USA.},
+  keywords = {Electricity; Electron Spin Resonance Spectroscopy, instrumentation/methods;
+	Finite Element Analysis; Models, Theoretical},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jsidabra},
+  pmid = {21806211},
+  timestamp = {2013.02.10},
+  url = {http://dx.doi.org/10.1063/1.3607432}
+}
+
+@ARTICLE{Mett2008,
+  author = {Richard R Mett and Jason W Sidabras and Iryna S Golovina and James
+	S Hyde},
+  title = {Dielectric microwave resonators in TE(011) cavities for electron
+	paramagnetic resonance spectroscopy.},
+  journal = {Rev Sci Instrum},
+  year = {2008},
+  volume = {79},
+  pages = {094702},
+  number = {9},
+  month = {Sep},
+  __markedentry = {[jsidabra:6]},
+  abstract = {The coupled system of the microwave cylindrical TE(011) cavity and
+	the TE(01delta) dielectric modes has been analyzed in order to determine
+	the maximum achievable resonator efficiency parameter of a dielectric
+	inserted into a cavity, and whether this value can exceed that of
+	a dedicated TE(01delta) mode dielectric resonator. The frequency,
+	Q value, and resonator efficiency parameter Lambda for each mode
+	of the coupled system were calculated as the size of the dielectric
+	was varied. Other output parameters include the relative field magnitudes
+	and phases. Two modes are found: one with fields in the dielectric
+	parallel to the fields in the cavity center and the other with antiparallel
+	fields. Results closely match those from a computer program that
+	solves Maxwell's equations by finite element methods. Depending on
+	the relative natural resonance frequencies of the cavity and dielectric,
+	one mode has a higher Q value and correspondingly lower Lambda than
+	the other. The mode with the higher Q value is preferentially excited
+	by a coupling iris or loop in or near the cavity wall. However, depending
+	on the frequency separation between modes, either can be excited
+	in this way. A relatively narrow optimum is found for the size of
+	the insert that produces maximum signal for both modes simultaneously.
+	It occurs when the self-resonance frequencies of the two resonators
+	are nearly equal. The maximum signal is almost the same as that of
+	the dedicated TE(01delta) mode dielectric resonator alone, Lambda
+	congruent with40 G/W(1/2) at X-band for a KTaO(3) crystal. The cavity
+	is analogous to the second stage of a two-stage coupler. In general,
+	there is no electron paramagnetic resonance (EPR) signal benefit
+	by use of a second stage. However, there is a benefit of convenience.
+	A properly designed sample-mounted resonator inserted into a cavity
+	can give EPR signals as large as what one would expect from the dielectric
+	resonator alone.},
+  doi = {10.1063/1.2976033},
+  institution = {Department of Biophysics, Medical College of Wisconsin, Milwaukee,
+	Wisconsin 53226-0509, USA.},
+  keywords = {Computer Simulation; Crystallization; Electric Impedance; Electromagnetic
+	Fields; Electron Spin Resonance Spectroscopy, instrumentation; Equipment
+	Design, instrumentation; Finite Element Analysis; Microwaves; Oxides,
+	chemistry; Potassium, chemistry; Tantalum, chemistry; Temperature},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jsidabra},
+  pmid = {19044441},
+  timestamp = {2013.02.10},
+  url = {http://dx.doi.org/10.1063/1.2976033}
+}
+
+@ARTICLE{Mett2009,
+  author = {R. R. Mett and J. W. Sidabras and J. S. Hyde},
+  title = {Coupling of Waveguide and Resonator by Inductive and Capacitive Irises
+	for EPR Spectroscopy.},
+  journal = {Appl Magn Reson},
+  year = {2009},
+  volume = {35},
+  pages = {285--318},
+  number = {2},
+  __markedentry = {[jsidabra:6]},
+  abstract = {An analytic circuit model for slot coupling from a waveguide to a
+	loop-gap resonator (LGR) in a context of electron paramagnetic resonance
+	(EPR) spectroscopy is presented. The physical dimensions of the waveguide,
+	iris, LGR, and aqueous sample are transformed into circuit values
+	of inductance, capacitance, and resistance. These values are used
+	in a solution of circuit equations that results in a prediction of
+	the rf currents, magnitude and phase, frequency, and magnetic and
+	electric stored energies near critical coupling. The circuit geometry
+	reflects magnetic flux conservation between the iris and LGR as well
+	as modification of the outer loop LGR currents by the iris. Unlike
+	conventional models, coupling is not explicitly based on a mutual
+	inductance between the iris and LGR. Instead, the conducting wall
+	high frequency rf boundary condition is used to define surface currents,
+	regions, and circuit topology with lumped-circuit values of self-inductance,
+	capacitance, and resistance. Match is produced by a combination of
+	self-inductive and capacitive circuit coupling. Two conditions must
+	be met to achieve match. First, the equivalent resistance of the
+	LGR as seen by the iris must be transformed into the waveguide characteristic
+	impedance. This transformation is met at a particular frequency relative
+	to the natural LGR resonance frequency. The frequency shift magnitude
+	is largely determined by the LGR properties, weakly dependent on
+	iris length and placement, and independent of other iris dimensions.
+	The second condition for match is that the iris reactance at this
+	frequency shift must cancel the residual reactance of the LGR. This
+	second condition is sensitive to the iris dimensions. If both conditions
+	are not simultaneously satisfied, overcoupling or undercoupling results.
+	A slotted iris of equal length to the size of the large dimension
+	of the waveguide is found to have many properties opposite to a conventional
+	iris of shorter length. Notably, the magnetic field near the iris
+	tends to reinforce rather than oppose the magnetic field in the resonator.
+	The long iris improves the LGR EPR performance by providing increased
+	rf magnetic field homogeneity at the sample, higher signal, and reduced
+	total frequency shift since the shifts due to sample and iris tend
+	to cancel. Investigations reveal that the first match condition can
+	be adjusted by LGR dimensional changes and such adjustment can eliminate
+	the frequency shift. Results are consistent with Ansoft High Frequency
+	Structure Simulator (Version 10.1, Ansoft Corporation, Pittsburgh,
+	PA) simulations and can be extended to cavity resonators.},
+  doi = {10.1007/s00723-008-0162-0},
+  institution = {Department of Biophysics, Medical College of Wisconsin, Milwaukee,
+	Wisconsin, USA.},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jsidabra},
+  pmid = {19498954},
+  timestamp = {2013.02.10},
+  url = {http://dx.doi.org/10.1007/s00723-008-0162-0}
+}
+
+@ARTICLE{Pollock2010,
+  author = {Jennifer D Pollock and Benjamin B Williams and Jason W Sidabras and
+	Oleg Grinberg and Ildar Salikhov and Piotr Lesniewski and Maciej
+	Kmiec and Harold M Swartz},
+  title = {Surface loop resonator design for in vivo EPR tooth dosimetry using
+	finite element analysis.},
+  journal = {Health Phys},
+  year = {2010},
+  volume = {98},
+  pages = {339--344},
+  number = {2},
+  month = {Feb},
+  __markedentry = {[jsidabra:6]},
+  abstract = {Finite element analysis is used to evaluate and design L-band surface
+	loop resonators for in vivo electron paramagnetic resonance (EPR)
+	tooth dosimetry. This approach appears to be practical and useful
+	for the systematic examination and evaluation of resonator configurations
+	to enhance the precision of dose estimates. The effects of loop positioning
+	in the mouth are examined, and it is shown that the sensitivity to
+	loop position along a row of molars is decreased as the loop is moved
+	away from the teeth.},
+  doi = {10.1097/HP.0b013e3181a6dd08},
+  institution = {Dartmouth College, Hanover, NH, USA. jennap@ieee.org},
+  keywords = {Animals; Biological Assay, instrumentation; Computer Simulation; Computer-Aided
+	Design; Dose-Response Relationship, Radiation; Electron Spin Resonance
+	Spectroscopy, instrumentation; Equipment Design; Equipment Failure
+	Analysis; Finite Element Analysis; Humans; Mass Screening, instrumentation;
+	Models, Biological; Radiation Dosage; Radiometry, instrumentation;
+	Reproducibility of Results; Sensitivity and Specificity; Tooth, chemistry/radiation
+	effects; Transducers},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jsidabra},
+  pii = {00004032-201002000-00034},
+  pmid = {20065703},
+  timestamp = {2013.02.10},
+  url = {http://dx.doi.org/10.1097/HP.0b013e3181a6dd08}
+}
+
+@ARTICLE{Sidabras2007,
+  author = {Jason W Sidabras and Richard R Mett and Wojciech Froncisz and Theodore
+	G Camenisch and James R Anderson and James S Hyde},
+  title = {Multipurpose EPR loop-gap resonator and cylindrical TE011 cavity
+	for aqueous samples at 94 GHz.},
+  journal = {Rev Sci Instrum},
+  year = {2007},
+  volume = {78},
+  pages = {034701},
+  number = {3},
+  month = {Mar},
+  __markedentry = {[jsidabra:6]},
+  abstract = {A loop-gap resonator (LGR) and a cylindrical TE(011) cavity resonator
+	for use at W band, 94 GHz, have been designed and characterized using
+	the Ansoft (Pittsburgh, PA) high frequency structure simulator (HFSS;
+	Version 10.0). Field modulation penetration was analyzed using Ansoft
+	MAXWELL 3D (Version 11.0). Optimizing both resonators to the same
+	sample sizes shows that EPR signal intensities of the LGR and TE(011)
+	are similar. The 3 dB bandwidth of the LGR, on the order of 1 GHz,
+	is a new advantage for high frequency experiments. Ultraprecision
+	electric discharge machining (EDM) was used to fabricate the resonators
+	from silver. The TE(011) cavity has slots that are cut into the body
+	to allow penetration of 100 kHz field modulation. The resonator body
+	is embedded in graphite, also cut by EDM techniques, for a combination
+	of reasons that include (i) reduced microwave leakage and improved
+	TE(011) mode purity, (ii) field modulation penetration, (iii) structural
+	support for the cavity body, and (iv) machinability by EDM. Both
+	resonators use a slotted iris. Variable coupling is provided by a
+	three-stub tuning element. A collet system designed to hold sample
+	tubes has been implemented, increasing repeatability of sample placement
+	and reducing sample vibration noise. Initial results include multiquantum
+	experiments up to 9Q using the LGR to examine 1 mM 2,2,6,6-tetramethylpiperidine-1-oxyl
+	(TEMPO) in aqueous solution at room temperature and field modulation
+	experiments using the TE(011) cavity to obtain an EPR spectrum of
+	1 microM TEMPO.},
+  doi = {10.1063/1.2709746},
+  institution = {Biophysics Research Institute, Medical College of Wisconsin, Milwaukee,
+	WI 53226-0509, USA.},
+  keywords = {Cyclic N-Oxides, analysis; Electron Spin Resonance Spectroscopy, instrumentation;
+	Solutions, chemistry; Water, chemistry},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jsidabra},
+  pmid = {17411204},
+  timestamp = {2013.02.10},
+  url = {http://dx.doi.org/10.1063/1.2709746}
+}
+
+@ARTICLE{Sidabras2005,
+  author = {Jason W Sidabras and Richard R Mett and James S Hyde},
+  title = {Aqueous flat-cells perpendicular to the electric field for use in
+	electron paramagnetic resonance spectroscopy, II: design.},
+  journal = {J Magn Reson},
+  year = {2005},
+  volume = {172},
+  pages = {333--341},
+  number = {2},
+  month = {Feb},
+  __markedentry = {[jsidabra:6]},
+  abstract = {This paper builds on the work of Mett and Hyde [J. Magn. Reson. 165
+	(2003) 137]. Various aqueous flat-cell geometries in the perpendicular
+	orientation have been studied using Ansoft High Frequency Structure
+	Simulator (version 9.0, Pittsburgh, PA) and Computer Simulation Technology
+	Microwave Studio (version 5.0, Wellesley Hills, MA). The analytic
+	theory of Mett and Hyde has been refined to predict optimum dimensions
+	of multiple sample cell structures including the effect of the sample
+	holder dielectric properties and the interaction of the cells with
+	each other on EPR signal strength. From these calculations and simulations
+	we propose a practical multiple cell sample structure for use in
+	commercial rectangular TE102 cavities that yields 2.0-2.3 times higher
+	sensitivity relative to a single flat-cell in the nodal orientation.
+	We also describe a modified TE102 resonator design with square rather
+	than cylindrical sample-access stacks that is predicted to give a
+	factor of 2.2-2.7 enhancement in EPR signal strength of a single
+	flat-cell in the nodal orientation. These signal enhancements are
+	predicted with sample holders fabricated from polytetrafluoroethylene.
+	Additional improvement in EPR signal of up to 75\% can be achieved
+	by using sample holder materials with lower dielectric constants.},
+  doi = {10.1016/j.jmr.2004.11.006},
+  institution = {Department of Biophysics, Medical College of Wisconsin, 8701 Watertown
+	Plank Road, Milwaukee, WI 53226-0509, USA.},
+  keywords = {Computer-Aided Design; Electromagnetic Fields; Electron Spin Resonance
+	Spectroscopy, instrumentation; Equipment Design; Finite Element Analysis;
+	Microwaves; Models, Theoretical; Polytetrafluoroethylene; Water,
+	chemistry},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jsidabra},
+  pii = {S1090-7807(04)00372-6},
+  pmid = {15649761},
+  timestamp = {2013.02.10},
+  url = {http://dx.doi.org/10.1016/j.jmr.2004.11.006}
+}
+
+@ARTICLE{Swartz2012,
+  author = {Harold M Swartz and Ann Barry Flood and Benjamin B Williams and Ruhong
+	Dong and Steven G Swarts and Xiaoming He and Oleg Grinberg and Jason
+	Sidabras and Eugene Demidenko and Jiang Gui and David J Gladstone
+	and Lesley A Jarvis and Maciej M Kmiec and Kyo Kobayashi and Piotr
+	N Lesniewski and Stephen D P Marsh and Thomas P Matthews and Roberto
+	J Nicolalde and Patrick M Pennington and Timothy Raynolds and Ildar
+	Salikhov and Dean E Wilcox and Bassem I Zaki},
+  title = {Electron paramagnetic resonance dosimetry for a large-scale radiation
+	incident.},
+  journal = {Health Phys},
+  year = {2012},
+  volume = {103},
+  pages = {255--267},
+  number = {3},
+  month = {Sep},
+  __markedentry = {[jsidabra:6]},
+  abstract = {With possibilities for radiation terrorism and intensified concerns
+	about nuclear accidents since the recent Fukushima Daiichi event,
+	the potential exposure of large numbers of individuals to radiation
+	that could lead to acute clinical effects has become a major concern.
+	For the medical community to cope with such an event and avoid overwhelming
+	the medical care system, it is essential to identify not only individuals
+	who have received clinically significant exposures and need medical
+	intervention but also those who do not need treatment. The ability
+	of electron paramagnetic resonance to measure radiation-induced paramagnetic
+	species, which persist in certain tissues (e.g., teeth, fingernails,
+	toenails, bone, and hair), has led to this technique becoming a prominent
+	method for screening significantly exposed individuals. Although
+	the technical requirements needed to develop this method for effective
+	application in a radiation event are daunting, remarkable progress
+	has been made. In collaboration with General Electric and through
+	funding committed by the Biomedical Advanced Research and Development
+	Authority, electron paramagnetic resonance tooth dosimetry of the
+	upper incisors is being developed to become a Food and Drug Administration-approved
+	and manufacturable device designed to carry out triage for a threshold
+	dose of 2 Gy. Significant progress has also been made in the development
+	of electron paramagnetic resonance nail dosimetry based on measurements
+	of nails in situ under point-of-care conditions, and in the near
+	future this may become a second field-ready technique. Based on recent
+	progress in measurements of nail clippings, it is anticipated that
+	this technique may be implementable at remotely located laboratories
+	to provide additional information when the measurements of dose on-site
+	need to be supplemented. The authors conclude that electron paramagnetic
+	resonance dosimetry is likely to be a useful part of triage for a
+	large-scale radiation incident.},
+  doi = {10.1097/HP.0b013e3182588d92},
+  institution = {Dartmouth Medical School, Hanover, NH 03755, USA. harold.m.swartz@dartmouth.edu},
+  keywords = {Artifacts; Electron Spin Resonance Spectroscopy, instrumentation/methods;
+	Environmental Exposure, analysis; Humans; Mechanical Processes; Nails,
+	radiation effects; Radioactive Hazard Release; Radiometry, instrumentation/methods;
+	Tooth, radiation effects; Triage},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jsidabra},
+  pii = {00004032-201209000-00004},
+  pmid = {22850230},
+  timestamp = {2013.02.10},
+  url = {http://dx.doi.org/10.1097/HP.0b013e3182588d92}
+}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+

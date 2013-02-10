@@ -4,7 +4,18 @@ body {
     color: #130f30;
     background-image: url('/media/images/background.png');
 }
-
+.bibtex_doi, .bibtex_pmid, .bibtex_url {
+    float: right;
+    margin-left : 10px;
+}
+.bibtex_title {
+    font-weight: bold;
+    margin-top: 30px;
+}
+.bibtex_volume, .bibtex_year, .bibtex_pages, .bibtex_journl {
+    float: left;
+    margin-right: 10px;
+}
 ul { margin: 0; }
 #main {
     width: 100%; 
