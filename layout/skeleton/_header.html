@@ -1,0 +1,29 @@
+<div id="header">
+<div style="float:left;">
+{% block sitenav %}
+{% include "skeleton/_site_nav.html" %}
+{% endblock %}
+</div>
+    <a href="{{site.url}}/index.html">
+<img class="headerimg" src="/media/images/jws_logo.png" alt="Silver"></br>
+        {{site.name}}</br>
+    </a>
+<span style="padding-right: 15px;">
+    <a href="http://twitter.com/cavilling_elite"><i class="icon-twitter"></i></a>
+</span>
+<span style="padding-right: 35px;">
+<a href="https://github.com/cavillingelite"><i class="icon-github-alt"></i></a>
+</span>
+</div>
+
+{% comment %}
+{% block breadcrumbs %}
+{% include "skeleton/_breadcrumbs.html"%}
+{% endblock %}
+
+{% block context_nav %}
+{% endblock %}
+
+{% endcomment %}
+
+

@@ -1,0 +1,84 @@
+{% extends "skeleton/_root.html" %}
+
+{% block all %}
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+		<title>
+			{% block title %}
+			{{site.name}} : {{page.title}}
+			{% endblock %}
+		</title>
+
+		{% block feeds %}
+
+		<link href="{{site.url}}/blog/atom.xml" rel="alternate" title="{{site.name}}" type="application/atom+xml"/>
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
+		{% endblock %}
+
+		{% block css %}
+
+		<link rel="stylesheet" href="{{site.url}}/media/css/base.css" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="{{site.url}}/media/css/font-awesome.min.css" type="text/css" media="screen" charset="utf-8">
+
+		{% block extra_css %}
+		{% endblock %}
+		
+		{% endblock %}
+		
+		{% block js %}
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+
+		{% block extra_js %}
+		{% endblock %}
+		
+		{% endblock %}
+
+	</head>
+
+	<body>
+
+		<div id="main">
+		    <div class="site">	
+			{% include "skeleton/_header.html" %}
+		    	<div style="width: 40em;">
+			{% block content %}{% endblock %}
+			</div>
+		    </div>
+		</div>
+		<div class="site">	
+		    	<div class="subcolumn">
+			    <h3>Currently Reading:</h3>
+				{% include "../content/_reading.html" %}
+			</div>
+			
+		    	<div class="subcolumn">
+			    <h3>Links of Interest:</h3>
+				{% include "../content/_links.html" %}
+			</div>
+		    	<div class="subcolumn">
+			    <h3>Friends:</h3>
+				{% include "../content/_friends.html" %}
+			</div>
+	
+			<div style="clear: both;">&nbsp;</div>
+				{% include "skeleton/_footer.html" %}
+
+		</div>
+
+	</body>
+
+</html>
+
+{% endblock %}
