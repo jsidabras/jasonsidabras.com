@@ -1,0 +1,31 @@
+{% extends "_post.html" %}
+
+{%load webdesign %}
+
+{%hyde
+    title: Rebooting my personal website 
+    created: 2013-02-10 22:07:29
+%}
+
+{% block article %}
+{% markdown %}  
+So it finally happened. I found the time to reboot [jasonsidabras.com](http://jasonsidabras.com) and I figured I should take a bit of time and outline what I have done.
+
+The first is the joy of static web-pages. When I started in HTML, JavaScript wasn't what it is now. There were no databases, and I sure didn't know any python. So I started with HTML and made some gaudy Geocities account. It was wonderful, and I think I got a total of 500 views. Or at least that is what my poorly customized counter would say on the bottom. 
+ 
+So when redesigning my personal web-space, I wanted the throwback of simple HTML. But the world has moved so far from that these days. So, to keep it all together I employed a little help from the static web-page generator [Hyde](https://github.com/lakshmivyas/hyde). It uses everything that I love about [django](https://www.djangoproject.com/) and puts it into a static hierarchy. I maintain changes of my code at [GitHub](https://github.com/cavillingelite), because no one should do anything without some kind of backup solution.
+
+These days comment sections, either personally written, part of a WordPress site, or disqus only cause problems. You have to maintain a database, maintain users, and most importantly minimize spam. So like many other web-blogs, I have done away with them. If someone actually reads this and has comments I have an open [twitter account](http://twitter.com/cavilling_elite) and Reddit is a great place to get the world to join or debate your viewpoint.
+
+The background was from [Subtle Patterns](http://subtlepatterns.com/). And the top is actually the gray-scaled inverse of the bottom. I also want to mention [font-awesome](http://fortawesome.github.com/Font-Awesome/). An amazing font created to give perfectly scaled icons for any web-page. All of the icons on this page are actually a font!
+
+I spend a lot of time at [Hacker News](http://news.ycombinator.com) and I have read about the advantages of clean and clear fonts, adequate white-space, and the lack of using "pure black" for colors. I used the great Google fonts service to host "Roboto Condensed" and "Source Sans Pro". Both fonts seem highly compatible and are used in slightly different ways. Hopefully as I update this blog more, I will find a writing style. Until then, rambling will work.
+
+My current reading list are the books that I am, well, currently reading. I use the [Referly](http://refer.ly/) service to keep track of click-through and purchases made because of my links. In doing so, I might get a kickback if you purchase something on the end of those links. 
+
+I put these links up, because I am enjoying them, and I hope you do too. Same goes for the links of interest. I have started using [Mindful Meditation](http://refer.ly/am3U) in order to calm stressful days. Human fMRI studies have shown a cumulative overall brain function health benefit when one practices meditation. I invite you to try it yourself. Finally, check out [Brawler](http://brawlerlit.com/) for some short stories, comics, poetry, and other forms of media from the local Milwaukee area. 
+
+Let's end with the logo. I was trying to think of something nerdy but not circuits, or microwaves, or something obvious. I choose the electron shell diagram for silver. It is simple, can look eloquent, and Sidabras means silver in Lithuanian. Perfect fit.
+{% endmarkdown %}
+
+{% endblock %}

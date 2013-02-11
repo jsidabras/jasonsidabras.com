@@ -12,7 +12,7 @@
 
 		<title>
 			
-			Jason W. Sidabras : Archives
+			Jason W. Sidabras : Rebooting my personal website
 			
 		</title>
 
@@ -112,29 +112,34 @@
 
 
 
+<div id="content-header">
+    <h1>Rebooting my personal website</h1>
+    <span class="post-date">Sun 10 Feb 2013</span>
+</div>
 
 
 
-<div class="page-listing">
+
+
+<div id="post-content">
 	
-		
 
-<ul></ul>
+	<p>So it finally happened. I found the time to reboot <a href="http://jasonsidabras.com">jasonsidabras.com</a> and I figured I should take a bit of time and outline what I have done and what I am planning on&nbsp;doing.</p>
 
+<p>The first is the joy of static web-pages. When I started in html, javascript wasn't what it is now. There were no databases, and I sure didn't know any python. So I started with html and made some gaughty geocities account. It was wonderful, and I think I got a total of 500 views. Or at least that is what my poorly customied counter would say on the&nbsp;bottom. </p>
 
-	
-		
+<p>So when redesigning my personal webspace, I wanted the throwback of simple html. But the world has moved so far from that these days. So, to keep it all together I employed a little help from the static webpage generator <a href="https://github.com/lakshmivyas/hyde">Hyde</a>. It uses everything that I love about <a href="https://www.djangoproject.com/">django</a> and puts it into a static heiarchy. I maintain changes of my code at <a href="https://github.com/cavillingelite">GitHub</a>, because no one should do anything without some kind of backup&nbsp;solution.</p>
 
-<a href="/blog/2013/2013.html"><h2>2013</h2></a><ul><li><span>2013-02-10  </span><a href="/blog/2013/sidabras-reboot.html">
-					
-						Rebooting my personal website
-					</a></li></ul>
+<p>The background was from <a href="http://subtlepatterns.com/">Subtle Patterns</a>. And the top is actually the grayscaled inverse of the bottom. I also want to mention <a href="font-awesome">http://fortawesome.github.com/Font-Awesome/</a>. An amazing font created to give perfectly scaled icons for any webpage. All of the icons on this page are actually a&nbsp;font!</p>
 
+<p>I spend a lot of time at <a href="http://news.ycombinator.com">Hacker News</a> and I have read about the advantages of clean and clear fonts, adequette whitespace, and the lack of using "pure black" for colors. I used the great Google fonts service to host "Roboto Condensed" and "Source Sans Pro". Both fonts seem highly compatible and are used in slightly different&nbsp;ways.</p>
+
+<p>My current reading list has the books I am, well, currently reading. I use the <a href="http://refer.ly/">Referly</a> service to keep track of click throughs and purchases made because of my links. In doing so, I might get a kickback. I put these things up, because I am enjoying them, and I hope you do too. Same goes for the links of interest. I have started using <a href="http://refer.ly/am3U">Mindful Meditation</a> in order to calm stressful days. There have been a lot of fMRI studies showing the overall brain function health benefits of doing meditation and I invite you to try it yourself. Finally, check out <a href="http://brawlerlit.com/">Brawler</a> for some short stories, comics, poetry, and other forms of mediai from the local Milwaukee&nbsp;area. </p>
+
+<p>Let's end with the logo. I was trying to think of something nerdy but not circuits, or microwaves, or something obvious. I choose the electron shell diagram for silver. It is simple, can look eliquent, and Sidabras means silver in Lithuanian. Perfect&nbsp;fit.</p>
 
 	
 </div>
-
-<div class="clear"></div>
 
 
 
