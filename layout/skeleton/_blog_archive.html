@@ -1,8 +1,14 @@
 {% extends "skeleton/_root.html" %}
 {% block all %}
-<h3 style="border-bottom: 1px dotted #4d6680;"> Archives </h3>
-
+{% if page.categories %}
+<h3 style="border-bottom: 1px dotted #4d6680;">Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+{% for i in page.categories %}
+{{ i }} </br>
+{% endfor %}
+{% comment %}
 <br/><br/>
-
-<h3 style="border-bottom: 1px dotted #4d6680;">Tags</h3>
+<h3 style="border-bottom: 1px dotted #4d6680;">Archives&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+{% endcomment %}
+{% else %}
+{% endif %}
 {% endblock %}

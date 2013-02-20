@@ -140,3 +140,88 @@ INSTALLED_APPS = (
     'hydeengine',
     'django.contrib.webdesign',
 )
+
+CATEGORY_ARCHIVES_DIR = "archives"
+SITE_PRE_PROCESSORS = {
+    'blog': {
+        'hydeengine.site_pre_processors.CategoriesManager' : {
+            # blog.categories gets populated even if there are no other
+            # settings here.
+
+            # Key 'archiving':
+            #
+            # Whether to produce any lists --- per-category lists of posts and
+            # perhaps an all-category list.
+            #
+            # Optional.  Default: False
+            #
+            # If True, category templates (configured below) will be expanded
+            # to produce pages.
+            #
+            # If False, blog.categories gets populated as usual but nothing
+            # else happens (no output is produced, even if template
+            # names/output directories are configured).
+            #
+            # Presumably called 'archives' because one application of
+            # categories is to put every blog in a category named after the
+            # year it got posted.
+            'archiving': True,
+
+            # Key 'template':
+            #
+            # The template to expand once per unique category, relative to
+            # LAYOUT_DIR.
+            #
+            # Mandatory if archiving is True.
+            #
+            # Gets passed 'posts' and 'categories'.  Typically you'll code this
+            # template to expand to a list of all pages in the given category.
+            # Depending on whether you use clean URLs, produces either:
+            #    <category>.html
+            # or:
+            #    <category>/index.html
+            # for each category.
+            'template': '_per_category.html',
+
+            # Key 'output_folder'
+            #
+            # The directory to write per-unique-category pages to.
+            #
+            # Optional.  Default: the value of CATEGORY_ARCHIVES_DIR if set,
+            # else the string 'archives'.
+            'output_folder': 'category',
+
+            # Key 'listing_template':
+            #
+            # The template to expand just once.
+            #
+            # Optional.  Default: not generated
+            #
+            # Gets passed 'categories'.  Typically used to generate a list of
+            # all categories.  You can achieve the same thing in any page
+            # without this by obtaining a reference to <node>.categories,
+            # perhaps with the help of the node injection preprocessor.
+            'listing_template': '_category_index.html',
+
+            # Key 'meta':
+            #
+            # A dictionary of category metadata, typically used to describe
+            # each category.
+            #
+            # Optional.  Default: no extra properties are set
+            #
+            # Any key-value pairs set here can be accessed as siblings of the
+            # automatic properties (category.name, category.posts) e.g. as
+            # category.description.
+            'meta': {
+                'parrot': {
+                    'description': "Posts related to parrots such as the Norweigan Blue",
+                },
+                'mortality': {
+                    'description': "Posts that remind us how fragile life is",
+                },
+            },
+        },
+    },
+}          
+
