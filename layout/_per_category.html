@@ -1,6 +1,13 @@
+{% extends "skeleton/_body.html" %}
 {% hyde
     listing: true
+    ping: ["one"]
 %}
+
+{% block content_body %}
+
+<div id="post-content">
+
 <div id="archives">
 <ul>
 {% for post in posts %}
@@ -10,3 +17,19 @@
 {% endfor %}
 </ul>
 </div>
+</div>
+
+{% endblock %}
+
+{% block content_header %}
+
+<div id="content-header">
+    <h1>Things tagged as {{ category }}</h1>
+
+</div>
+
+{% endblock %}
+
+{% block context_nav %}
+{% include "skeleton/_context_nav.html" %}
+{% endblock %}

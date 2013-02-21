@@ -1,6 +1,30 @@
-<h1>List of categories</h1>
+{% extends "skeleton/_body.html" %}
+{% hyde
+    listing: true
+    ping: ["one"]
+%}
+
+{% block content_body %}
+
+<div id="post-content">
 <ul>
   {% for c in categories %}
   <li><a href="{{c.archive_url}}">{{c.name}}</a></li>
   {% endfor %}
 </ul>
+</div>
+
+{% endblock %}
+
+{% block content_header %}
+
+<div id="content-header">
+    <h1>List of Tags</h1>
+    <span class="post-date">{{ page.created|date:"D d M Y"}}</span>
+</div>
+
+{% endblock %}
+
+{% block context_nav %}
+{% include "skeleton/_context_nav.html" %}
+{% endblock %}

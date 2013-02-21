@@ -214,8 +214,8 @@ SITE_PRE_PROCESSORS = {
             # automatic properties (category.name, category.posts) e.g. as
             # category.description.
             'meta': {
-                'parrot': {
-                    'description': "Posts related to parrots such as the Norweigan Blue",
+                'personal': {
+                    'description': "Posts related to general personal work.",
                 },
                 'mortality': {
                     'description': "Posts that remind us how fragile life is",
