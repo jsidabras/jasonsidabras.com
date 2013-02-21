@@ -223,5 +223,11 @@ SITE_PRE_PROCESSORS = {
             },
         },
     },
+    '/': {
+        'hydeengine.site_pre_processors.NodeInjector' : {
+               'variable' : 'blog_node',
+               'path' : 'blog'
+        }
+    },
 }          
 

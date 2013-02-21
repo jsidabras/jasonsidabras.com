@@ -3,7 +3,7 @@
 {% if page.categories %}
 <h3 style="border-bottom: 1px dotted #4d6680;">Tags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 {% for i in page.categories %}
-{{ i }} </br>
+<a href="/category/{{ i }}.html">{{ i }}</a></br>
 {% endfor %}
 {% comment %}
 <br/><br/>
