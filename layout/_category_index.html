@@ -9,7 +9,7 @@
 <div id="post-content">
 <ul>
   {% for c in categories %}
-  <li><a href="{{c.archive_url}}">{{c.name}}</a></li>
+  <li><a href="{{c.archive_url}}">{{c.name}}</a>&nbsp;(&nbsp;{{c.post_count}}&nbsp;):&nbsp;{{c.description}}</li>
   {% endfor %}
 </ul>
 </div>
@@ -20,7 +20,6 @@
 
 <div id="content-header">
     <h1>List of Tags</h1>
-    <span class="post-date">{{ page.created|date:"D d M Y"}}</span>
 </div>
 
 {% endblock %}

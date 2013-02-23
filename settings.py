@@ -214,11 +214,11 @@ SITE_PRE_PROCESSORS = {
             # automatic properties (category.name, category.posts) e.g. as
             # category.description.
             'meta': {
-                'personal': {
-                    'description': "Posts related to general personal work.",
+                'Personal': {
+                    'description': "Posts related to personal work.",
                 },
-                'mortality': {
-                    'description': "Posts that remind us how fragile life is",
+                'General': {
+                    'description': "Posts that are general and can't be tagged.",
                 },
             },
         },
