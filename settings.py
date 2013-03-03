@@ -220,6 +220,19 @@ SITE_PRE_PROCESSORS = {
                 'General': {
                     'description': "Posts that are general and can't be tagged.",
                 },
+                'Science': {
+                    'description': "Does it talk about science? You will find it here.",
+                },
+                'Writings': {
+                    'description': "The inner workings and hashing out the ideas for stories or books.",
+			},
+		'Opinion': {
+		    'description': "I have a lot of opinions, and you are here to read them.", },
+		'Economics': {
+		    'description': "I have a small passion for business and economics, find posts about that here.", },
+		'Politics': {
+		    'description': "If it talks about the government and governing of people it will be here.", },
+ 
             },
         },
     },
