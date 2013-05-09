@@ -17,7 +17,18 @@
 			{{site.name}} : {{page.title}}
 			{% endblock %}
 		</title>
+<link rel="icon" type="image/png" href="/media/images/favicon.png" />
 
+<script type="text/javascript">
+/* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+        t.parentNode.insertBefore(s, t);
+    })();
+/* ]]> */</script>
 		{% block feeds %}
 
 		<link href="{{site.url}}/blog/atom.xml" rel="alternate" title="{{site.name}}" type="application/atom+xml"/>
