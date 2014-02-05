@@ -2598,10 +2598,14 @@ var bibtexify = (function($) {
         },
         conference: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
-            entryData.title + ". " + entryData.type + ". " +
+            entryData.title + ". " + entryData.type + ": " +
             entryData.organization + ".";
         },
-
+        proceedings: function(entryData) {
+            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
+            entryData.title + ". " + entryData.type + ": " +
+            entryData.organization + ".";
+        },
         mastersthesis: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
             entryData.title + ". " + entryData.type + ". " +
@@ -2638,8 +2642,8 @@ var bibtexify = (function($) {
             'patent': 55,
             'inproceedings': 40,
             'incollection': 50,
-            'proceedings': 60,
-            'conference': 70,
+            'proceedings': 95,
+            'conference': 100,
             'article': 80,
             'phdthesis': 90,
             'inbook': 100,
@@ -2659,7 +2663,7 @@ var bibtexify = (function($) {
             'mastersthesis': 'Thesis',
             'misc': 'Misc',
             'phdthesis': 'PhD Thesis',
-            'proceedings': 'Conference Proceeding',
+            'proceedings': 'Invited Talk',
             'techreport': 'Technical Report',
             'unpublished': 'Unpublished'}
     };
