@@ -10,6 +10,7 @@ span.undefined { color:red; }
 .inbook { background-color: #eaa; }
 .phdthesis { background-color: #999; }
 .patent { background-color: #999; }
+.conference { background-color: #6CF; }
 .unpublished { background-color: #eae; }
 .mastersthesis { background-color: #eea; }
 .techreport { background-color: #b77; }

@@ -2596,6 +2596,12 @@ var bibtexify = (function($) {
             entryData.title + ". " + 
             entryData.organization + ".";
         },
+        conference: function(entryData) {
+            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
+            entryData.title + ". " + entryData.type + ". " +
+            entryData.organization + ".";
+        },
+
         mastersthesis: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
             entryData.title + ". " + entryData.type + ". " +
@@ -2644,17 +2650,17 @@ var bibtexify = (function($) {
         labels: {
             'article': 'Journal',
             'book': 'Book',
-            'conference': 'Abstracts',
-            'inbook': 'Book chapter',
+            'conference': 'Abstract',
+            'inbook': 'Book Chapter',
             'incollection': '',
             'inproceedings': 'Conference',
             'manual': 'Manual',
-            'patent': 'Patents',
-            'mastersthesis': 'Masters Thesis',
+            'patent': 'Patent',
+            'mastersthesis': 'Thesis',
             'misc': 'Misc',
             'phdthesis': 'PhD Thesis',
-            'proceedings': 'Conference proceeding',
-            'techreport': 'Technical report',
+            'proceedings': 'Conference Proceeding',
+            'techreport': 'Technical Report',
             'unpublished': 'Unpublished'}
     };
     // format a phd thesis similarly to masters thesis
