@@ -143,7 +143,7 @@ function is_array(mixed_var){
 return(mixed_var instanceof Array);}
 function BibTex(options)
 {if(typeof options=='undefined')options={};this.data;this.content;this._delimiters;this.warnings;this._options;this.rtfstring;this.htmlstring;this.allowedEntryTypes;this.authorstring;this._delimiters={'"':'"','{':'}'};this.data=[];this.content='';this.warnings=[];this._options={'stripDelimiter':true,'validate':true,'unwrap':false,'wordWrapWidth':false,'wordWrapBreak':"\n",'wordWrapCut':0,'removeCurlyBraces':false,'extractAuthors':true};for(option in options){test=this.setOption(option,options[option]);if(this.isError(test)){}}
-this.rtfstring='AUTHORS, "{\b TITLE}", {\i JOURNAL}, YEAR';this.htmlstring='AUTHORS, "<strong>TITLE</strong>", <em>JOURNAL</em>, YEAR<br />';this.allowedEntryTypes=array('article','book','booklet','confernce','inbook','incollection','inproceedings','manual','masterthesis','misc','phdthesis','proceedings','techreport','unpublished');this.authorstring='VON LAST, JR, FIRST';}
+this.rtfstring='AUTHORS, "{\b TITLE}", {\i JOURNAL}, YEAR';this.htmlstring='AUTHORS, "<strong>TITLE</strong>", <em>JOURNAL</em>, YEAR<br />';this.allowedEntryTypes=array('article','book','booklet','confernce','inbook','incollection','inproceedings','manual','masterthesis','patent','misc','phdthesis','proceedings','techreport','unpublished');this.authorstring='VON LAST, JR, FIRST';}
 BibTex.prototype={setOption:function(option,value)
 {ret=true;if(array_key_exists(option,this._options)){this._options[option]=value;}else{ret=this.raiseError('Unknown option '+option);}
 return ret;},parse:function()

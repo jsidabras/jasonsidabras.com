@@ -1,6 +1,7 @@
 /*!*
  * Javascript BibTex Parser v0.1
  * Copyright (c) 2008 Simon Fraser University
+ * Modified by Jason W. Sidabras 2014
  * @author Steve Hannah <shannah at sfu dot ca>
  * 
  *
@@ -2590,6 +2591,11 @@ var bibtexify = (function($) {
                 ((entryData.howpublished)?entryData.howpublished + ". ":"") +
                 ((entryData.note)?entryData.note + ".":"");
         },
+        patent: function(entryData) {
+            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
+            entryData.title + ". " + 
+            entryData.organization + ".";
+        },
         mastersthesis: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
             entryData.title + ". " + entryData.type + ". " +
@@ -2623,6 +2629,7 @@ var bibtexify = (function($) {
             'manual': 10,
             'techreport': 20,
             'mastersthesis': 30,
+            'patent': 55,
             'inproceedings': 40,
             'incollection': 50,
             'proceedings': 60,
@@ -2637,12 +2644,13 @@ var bibtexify = (function($) {
         labels: {
             'article': 'Journal',
             'book': 'Book',
-            'conference': '',
+            'conference': 'Abstracts',
             'inbook': 'Book chapter',
             'incollection': '',
             'inproceedings': 'Conference',
             'manual': 'Manual',
-            'mastersthesis': 'Thesis',
+            'patent': 'Patents',
+            'mastersthesis': 'Masters Thesis',
             'misc': 'Misc',
             'phdthesis': 'PhD Thesis',
             'proceedings': 'Conference proceeding',

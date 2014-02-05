@@ -140,6 +140,11 @@ var bibtexify = (function($) {
         },
         mastersthesis: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
+            entryData.title + ". " + 
+            entryData.organization + ".";
+        },
+        mastersthesis: function(entryData) {
+            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
             entryData.title + ". " + entryData.type + ". " +
             entryData.organization + ", " + entryData.school + ".";
         },
@@ -173,6 +178,7 @@ var bibtexify = (function($) {
             'mastersthesis': 30,
             'inproceedings': 40,
             'incollection': 50,
+            'patent': 50,
             'proceedings': 60,
             'conference': 70,
             'article': 80,
@@ -185,9 +191,10 @@ var bibtexify = (function($) {
         labels: {
             'article': 'Journal',
             'book': 'Book',
-            'conference': '',
+            'conference': 'Abstracts',
             'inbook': 'Book chapter',
             'incollection': '',
+            'patent': 'Patents',
             'inproceedings': 'Conference',
             'manual': 'Manual',
             'mastersthesis': 'Thesis',

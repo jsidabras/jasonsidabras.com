@@ -871,6 +871,7 @@ function BibTex(options)
 		'inproceedings',
 		'manual',
 		'masterthesis',
+                'patent',
 		'misc',
 		'phdthesis',
 		'proceedings',
