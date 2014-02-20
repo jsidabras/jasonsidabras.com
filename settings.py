@@ -232,7 +232,8 @@ SITE_PRE_PROCESSORS = {
 		    'description': "I have a small passion for business and economics, find posts about that here.", },
 		'Politics': {
 		    'description': "If it talks about the government and governing of people it will be here.", },
- 
+		'Programming': {
+		    'description': "Diving into programming one error at a time.", },
             },
         },
     },
