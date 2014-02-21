@@ -1,0 +1,50 @@
+{% extends "_post.html" %}
+
+{%load webdesign %}
+
+{%hyde
+    title: Diving into Bitcoin 
+    created: 2014-2-20 22:07:29
+    categories: ["General", "Programming"]
+%}
+
+{% block article %}
+{% markdown %}  
+Coinbase has issued a [hackathon challenge](http://bithackathon.com/) to build something Bitcoin related with Coinbase's API. I have an idea, but it is highly involved and I only have till March 16th. Either case, I'm slowing working towards it and I want to use this blog post to aggregate the links and some ideas.
+
+[Cryptography of Bitcoin](http://blog.ezyang.com/2011/06/the-cryptography-of-bitcoin/) Very detailed post regarding the underlying cryptography of bitcoin. In order to understand the transaction process, it helps to know "Why?".
+
+[Bitcoins the hard way](http://www.righto.com/2014/02/bitcoins-hard-way-using-raw-bitcoin.html): A great blog post by Ken Shirriff where he build a "simple" bitcoin transaction from scratch.
+
+From his post:  Several Bitcoin libraries in Python are [bitcoin-python](https://en.bitcoin.it/wiki/Bitcoin-python), [pycoin](https://github.com/richardkiss/pycoin), and [python-bitcoinlib](https://github.com/jgarzik/python-bitcoinlib). 
+
+Between these, I should be able to work what I want out. So, what is it?
+
+### Use Coinbase and Bitcoin to sign documents
+
+I envision a service where you take your important documents (pdf, pictures, notebook pages, legal files) and you create a timestamped signature that is unalterable. 
+
+Though careful reading I might have devised a way to do this. I imagine the handshake to go as follows.
+
+ 1. Coinbase user chooses file
+ 2. User is charged 0.001 BTC to sent to service
+ 3. SHA512 hash is created from file 
+ ** Generated client side with [jsSHA](http://caligatio.github.io/jsSHA/)
+ 4. Transaction is created with one output (client) and two inputs (client and service)
+ ** The input of client is to return some bitcoin (0.0005), pay the service (0.0003) and leave a fee for the miners (0.0002). This ensures that the block is mined in a timely fashion.
+ 5. The block and filename is saved in a database so the SHA512 can be read and tested against the document
+
+#### Future work
+
+If all goes as planned, the next step would be to offer the same service but have a monthly charge to upload and store the file for retrieval. 
+
+Additionally, I can imagine an advanced service which creates a 2-person auth to decrypt the SHA512 which serves as the private key to decrypt the file.
+
+### Coinbase API
+
+One initial snag was that Coinbase hides the private key in an offline storage. This significantly helps in security, but it becomes an issue if you want to sign or verify messages from within the Bitcoin network. Although Coinbase provides an app to sign simple messages, it is not available in the API.
+
+One solution is to "browse" their site with a scraper and use that as the API to provide an additional signature on the transaction.
+{% endmarkdown %}
+
+{% endblock %}
