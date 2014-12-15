@@ -1,164 +1,132 @@
+<!doctype html>
+<!-- https://github.com/paulirish/html5-boilerplate/blob/master/index.html -->
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="">
 
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="">
 
-<?xml version="1.0" encoding="UTF-8"?>
+  <!-- encoding must be specified within the first 512 bytes
+        www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset -->
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+  <!-- meta element for compatibility mode needs to be before
+        all elements except title & meta
+        msdn.microsoft.com/en-us/library/cc288325(VS.85).aspx -->
+  <!-- Chrome Frame is only invoked if meta element for
+        compatibility mode is within the first 1K bytes
+        code.google.com/p/chromium/issues/detail?id=23003 -->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <title>Jason W. Sidabras - About Me</title>
+  <meta name="description" content="My Personal Website">
+  <meta name="author" content="Jason W. Sidabras">
 
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="">
 
-		<title>
-			
-			Jason W. Sidabras : About
-			
-		</title>
-<link rel="icon" type="image/png" href="/media/images/favicon.png" />
+    <!-- Place favicon.ico & apple-touch-icon.png
+        in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/media/favicon.ico">
+  <link rel="apple-touch-icon" href="/media/apple-touch-icon.png">
+    
+   <link href="/blog/atom.xml" rel="alternate" title="" type="application/atom+xml"/>
 
-<script type="text/javascript">
-/* <![CDATA[ */
-    (function() {
-        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
-        t.parentNode.insertBefore(s, t);
-    })();
-/* ]]> */</script>
-		
+   <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
+  
+      <link rel="stylesheet" href="/media/css/bib-publication-list.css"/>
+    <link rel="stylesheet" href="/media/css/base.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/media/css/font-awesome.min.css" type="text/css" media="screen" charset="utf-8">
 
-		<link href="/blog/atom.xml" rel="alternate" title="Jason W. Sidabras" type="application/atom+xml"/>
+      <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.4.min.js">\x3C/script>')</script>
+   
+    <!-- All JavaScript at the bottom, except for Modernizr which
+        enables HTML5 elements & feature detects -->
+    <script src="/media/js/libs/modernizr-1.7.min.js"></script>
+    </head>
+<body id="index">
 
-		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
-		
-
-		
-		<link rel="stylesheet" href="/media/css/bib-publication-list.css"/>
-
-		<link rel="stylesheet" href="/media/css/base.css" type="text/css" media="screen" charset="utf-8">
-		<link rel="stylesheet" href="/media/css/font-awesome.min.css" type="text/css" media="screen" charset="utf-8">
-
-		
-		
-		
-		
-		
-		
-
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
-
-		
-		
-		
-		
-
-	</head>
-
-	<body>
-
-		<div id="main">
-		    <div class="site">	
-			<div id="header">
-<div style="float:left;">
-
-
-
-<div id="sitenav">
+              <div id="main" role="main">
+       <div class="site">
+           <div id="header">
+                                  <nav class=sitenav>
     <ul>
-        <li class="selected" >
-            <a href="/index.html">About</a>
-        </li>    
-
-        
-			<li>
-				<a href="/work/index.html">
-					Work
-				</a>
-			</li>
-        
-			<li>
-				<a href="/publications/index.html">
-					Publications
-				</a>
-			</li>
-        
-			<li>
-				<a href="/blog/blog.html">
-					Blog
-				</a>
-			</li>
-        
-			<li>
-				<a href="/projects/index.html">
-					Projects
-				</a>
-			</li>
-        
-    </ul>
-</div>
-
-
-
-</div>
-    <a href="/index.html">
-<img class="headerimg" src="/media/images/jws_logo.png" alt="Silver"></br>
-        Jason W. Sidabras</br>
-    </a>
-<span style="padding-right: 15px;">
-    <a href="http://twitter.com/cavilling_elite"><i class="icon-twitter"></i></a>
-</span>
-<span style="padding-right: 35px;">
-<a href="https://github.com/cavillingelite"><i class="icon-github-alt"></i></a>
-</span>
-</div>
-<div style="float:right;">
-
-
-
-
-</div>
-
-
-
-
-
-		    	<div style="width: 40em;">
-			
-
-
-
-
-
-
+                <li>
+            <a title="About Me"
+                class="button white active"
+                href="/index.html">
+                About
+            </a>
+        </li>        <li>
+            <a title="Work projects and files"
+                class="button white"
+                href="/portfolio.html">
+                Work
+            </a>
+        </li>        <li>
+            <a title="List of my publications"
+                class="button white"
+                href="/publications.html">
+                Publications
+            </a>
+        </li>        <li>
+            <a title="Blog"
+                class="button white"
+                href="/blog">
+                Blog
+            </a>
+        </li>        <li>
+            <a title="List of hobbies and projects"
+                class="button white"
+                href="/projects.html">
+                Projects
+            </a>
+        </li>    </ul>
+</nav>
+           
+          <header class="banner clearfix">
+          <a href="/index.html">
+             <img class="headerimg" src="/media/images/jws_logo.png" alt="Silver"></br>
+             Jason W. Sidabras</br>
+            </a>
+            <span style="padding-right: 15px;">
+             <a href="http://twitter.com/cavilling_elite"><i class="icon-twitter"></i></a>
+            </span>
+            <span style="padding-right: 35px;">
+             <a href="https://github.com/cavillingelite"><i class="icon-github-alt"></i></a>
+            </span>
+           </div>
+          </header>          <section class="content">
+           <div style="width: 40em;">
+            
 <p style="font-size: xx-large; font-weight: 300;">An almost-young aspiring scientist/engineer working his way through electromagnetics, programming, beer/food snobbery, secular humanism, and other interests.
 </p>
 
-
-
-			</div>
-		    </div>
-		</div>
-		<div class="site">	
-		    	<div class="subcolumn">
-			    <h3>Currently Reading:</h3>
-				<i class="icon-link"></i>&nbsp;<a id="sub" href="http://www.amazon.com/gp/product/0393094154/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0393094154&linkCode=as2&tag=jaswsid-20">Johnathan Swift - Star Rover</a><br>
+           </div>
+          </section>
+      </div>
+      </div> <!--! end of #container -->
+  <footer>
+   <div class="site">
+    <div class="subcolumn">
+     <h3>Currently Reading:</h3>
+     <i class="icon-link"></i>&nbsp;<a id="sub" href="http://www.amazon.com/gp/product/0393094154/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0393094154&linkCode=as2&tag=jaswsid-20">Johnathan Swift - Star Rover</a><br>
 <i class="icon-link"></i>&nbsp;<a id="sub" href="http://www.amazon.com/gp/product/1422184056/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1422184056&linkCode=as2&tag=jaswsid-2">Harvard Business Review 10 Must Reads</a><br>
-<i class="icon-link"></i>&nbsp;<a id="sub" href="http://www.amazon.com/gp/product/0062230174/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0062230174&linkCode=as2&tag=jaswsid-20">This Explains Everything - John Brockman</a><br>
-
-			</div>
-			
-		    	<div class="subcolumn">
-			    <h3>Links of Interest:</h3>
-				<i class="icon-bookmark-empty"></i>&nbsp;<a id="sub" href="http://www.amazon.com/gp/product/1591793599/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1591793599&linkCode=as2&tag=jaswsid-20">Mindfulness Mediation: Dr. Jon Kabat-Zinn</a><br>
-<i class="icon-bookmark-empty"></i>&nbsp;<a id="sub" href="http://brawlerlit.com/">brawler</a><br>
-
-			</div>
-		    	<div class="subcolumn">
-			    <h3>Friends:</h3>
-				<i class="icon-group"></i>&nbsp;<a id="sub" href="https://github.com/w33ble">Joe Fleming</a>&nbsp;
+<i class="icon-link"></i>&nbsp;<a id="sub" href="http://www.amazon.com/gp/product/0062230174/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0062230174&linkCode=as2&tag=jaswsid-20">This Explains Everything - John Brockman</a><br>    </div>
+    <div class="subcolumn">
+     <h3>Links of Interest:</h3>
+     <i class="icon-bookmark-empty"></i>&nbsp;<a id="sub" href="http://www.amazon.com/gp/product/1591793599/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1591793599&linkCode=as2&tag=jaswsid-20">Mindfulness Mediation: Dr. Jon Kabat-Zinn</a><br>
+<i class="icon-bookmark-empty"></i>&nbsp;<a id="sub" href="http://brawlerlit.com/">brawler</a><br>    </div>
+    <div class="subcolumn">
+     <h3>Friends:</h3>
+     <i class="icon-group"></i>&nbsp;<a id="sub" href="https://github.com/w33ble">Joe Fleming</a>&nbsp;
 (&nbsp;<a id="sub" href="http://joefleming.net/">Website</a>&nbsp;)<br>
 <i class="icon-group"></i>&nbsp;<a id="sub" href="https://github.com/choptastic">Jesse Gumm</a>&nbsp;
 (&nbsp;<a id="sub" href="http://sigma-star.com/page/jesse">Website</a>&nbsp;)<br>
@@ -166,17 +134,18 @@
 <i class="icon-group"></i>&nbsp;<a id="sub" href="https://twitter.com/MrGilJimenez">Gil Jimenez</a><br>
 <i class="icon-group"></i>&nbsp;<a id="sub" href="https://twitter.com/JLBeadle">Landon Beadle</a>&nbsp;
 (&nbsp;<a id="sub" href="http://landonbeadle.com/">Website</a>&nbsp;)<br>
-<i class="icon-group"></i>&nbsp;<a id="sub" href="http://noahjcomics.com/">Noah J Yuenkel</a><br>
+<i class="icon-group"></i>&nbsp;<a id="sub" href="http://noahjcomics.com/">Noah J Yuenkel</a><br>    </div>
+    <div style="clear: both;">&nbsp;</div>
+     <div id='footer'>Copyright &copy; 2015 Jason W. Sidabras </div>   </div>
+  </footer>
+      <!-- Javascript at the bottom for fast page loading -->
+   
 
-			</div>
-	
-			<div style="clear: both;">&nbsp;</div>
-				<div id='footer'>Copyright Jason W. Sidabras</div>
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+  <![endif]-->
 
-
-		</div>
-
-	</body>
-
+      
+  </body>
 </html>
-

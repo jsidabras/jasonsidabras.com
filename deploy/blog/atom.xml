@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>
+        Jason W. Sidabras blog full text feed    </title>
+        <link href="/blog/atom.xml" rel="self" />
+    
+        <link href="/"/>
+    
+        
+    <updated>2014-12-15T00:44:09Z</updated>
+
+    <id>/blog/atom.xml/</id>
+
+            <entry>
+            <title type="html">Diving into Bitcoin</title>
+            <author><name>Jason W. Sidabras</name></author>
+            <link href="/blog/2014/bitcoin-protocol.html"/>
+            <updated>2014-02-20T22:07:29Z</updated>
+            <published>2014-02-20T22:07:29Z</published>
+            <id>/blog/2014/bitcoin-protocol.html</id>
+            
+            <content type="html">
+                                            </content>
+        </entry>
+            <entry>
+            <title type="html">New Year New Promises</title>
+            <author><name>Jason W. Sidabras</name></author>
+            <link href="/blog/2014/new-year-new-promises.html"/>
+            <updated>2014-01-04T22:07:29Z</updated>
+            <published>2014-01-04T22:07:29Z</published>
+            <id>/blog/2014/new-year-new-promises.html</id>
+            
+            <content type="html">
+                                            </content>
+        </entry>
+            <entry>
+            <title type="html">Preconception is the Enemy of Innovation.</title>
+            <author><name>Jason W. Sidabras</name></author>
+            <link href="/blog/2013/preconception-inovation.html"/>
+            <updated>2013-05-23T22:07:29Z</updated>
+            <published>2013-05-23T22:07:29Z</published>
+            <id>/blog/2013/preconception-inovation.html</id>
+            
+            <content type="html">
+                                            </content>
+        </entry>
+            <entry>
+            <title type="html">Flight of the Bees</title>
+            <author><name>Jason W. Sidabras</name></author>
+            <link href="/blog/2013/flight-of-the-bees.html"/>
+            <updated>2013-05-09T22:07:29Z</updated>
+            <published>2013-05-09T22:07:29Z</published>
+            <id>/blog/2013/flight-of-the-bees.html</id>
+            
+            <content type="html">
+                                            </content>
+        </entry>
+            <entry>
+            <title type="html">Real Trickle Down Economics</title>
+            <author><name>Jason W. Sidabras</name></author>
+            <link href="/blog/2013/real-trickle-down.html"/>
+            <updated>2013-03-03T22:07:29Z</updated>
+            <published>2013-03-03T22:07:29Z</published>
+            <id>/blog/2013/real-trickle-down.html</id>
+            
+            <content type="html">
+                                            </content>
+        </entry>
+            <entry>
+            <title type="html">Rebooting my personal website</title>
+            <author><name>Jason W. Sidabras</name></author>
+            <link href="/blog/2013/sidabras-reboot.html"/>
+            <updated>2013-02-10T22:07:29Z</updated>
+            <published>2013-02-10T22:07:29Z</published>
+            <id>/blog/2013/sidabras-reboot.html</id>
+            
+            <content type="html">
+                                            </content>
+        </entry>
+    </feed>

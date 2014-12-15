@@ -1,0 +1,50 @@
+!!python/unicode '.hyde_deps': []
+!!python/unicode 'README.markdown': []
+!!python/unicode 'blog/2013/flight-of-the-bees.html': [post.html]
+!!python/unicode 'blog/2013/preconception-inovation.html': [post.html]
+!!python/unicode 'blog/2013/real-trickle-down.html': [post.html]
+!!python/unicode 'blog/2013/sidabras-reboot.html': [post.html]
+!!python/unicode 'blog/2014/bitcoin-protocol.html': [post.html]
+!!python/unicode 'blog/2014/new-year-new-promises.html': [post.html]
+!!python/unicode 'blog/atom.xml': [atom.j2, macros.j2]
+!!python/unicode 'blog/excerpts.xml': [atom.j2, macros.j2]
+!!python/unicode 'blog/index.html': [friends.html, listing.j2, links.html, base.j2,
+  footer.html, analytics.j2, macros.j2, reading.html]
+!!python/unicode 'blog/tags/angry.html': [footer.html, friends.html, links.html, base.j2,
+  tagged_posts.j2, analytics.j2, macros.j2, reading.html]
+!!python/unicode 'blog/tags/happy.html': [footer.html, friends.html, links.html, base.j2,
+  tagged_posts.j2, analytics.j2, macros.j2, reading.html]
+!!python/unicode 'blog/tags/sad.html': [footer.html, friends.html, links.html, base.j2,
+  tagged_posts.j2, analytics.j2, macros.j2, reading.html]
+!!python/unicode 'blog/tags/thoughts.html': [footer.html, friends.html, links.html,
+  base.j2, tagged_posts.j2, analytics.j2, macros.j2, reading.html]
+!!python/unicode 'index.html': [friends.html, links.html, base.j2, footer.html, analytics.j2,
+  macros.j2, reading.html]
+!!python/unicode 'info.yaml': []
+!!python/unicode 'media/.hyde_deps': []
+!!python/unicode 'media/css/base.css': []
+!!python/unicode 'media/css/bib-publication-list.css': []
+!!python/unicode 'media/css/font-awesome.min.css': []
+!!python/unicode 'media/css/index.html': []
+!!python/unicode 'media/css/site.css': []
+!!python/unicode 'media/css/syntax.css': []
+!!python/unicode 'media/files/TwistedPair.hfss': []
+!!python/unicode 'media/files/index.html': []
+!!python/unicode 'media/font/fontawesome-webfont.svg': []
+!!python/unicode 'media/font/index.html': []
+!!python/unicode 'media/images/index.html': []
+!!python/unicode 'media/index.html': []
+!!python/unicode 'media/js/BibTex-0.1.2.js': []
+!!python/unicode 'media/js/bib-list.js': []
+!!python/unicode 'media/js/index.html': []
+!!python/unicode 'media/js/libs/dd_belatedpng.js': []
+!!python/unicode 'media/js/libs/jquery-1.5.1.min.js': []
+!!python/unicode 'media/js/libs/modernizr-1.7.min.js': []
+!!python/unicode 'media/sidabras.bib': []
+!!python/unicode 'portfolio.html': [friends.html, links.html, base.j2, footer.html,
+  analytics.j2, macros.j2, reading.html]
+!!python/unicode 'projects.html': [friends.html, links.html, base.j2, footer.html,
+  analytics.j2, macros.j2, reading.html]
+!!python/unicode 'publications.html': [friends.html, links.html, base.j2, footer.html,
+  analytics.j2, macros.j2, reading.html]
+!!python/unicode 'site.yaml': []

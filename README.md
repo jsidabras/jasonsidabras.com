@@ -1,1 +1,1 @@
-The hyde directory structure and layout for http://jasonsidabras.com
+jasonsidabras.com built with hyde for python
