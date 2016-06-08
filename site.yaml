@@ -11,7 +11,6 @@ plugins:
     - hyde.ext.plugins.text.TextlinksPlugin
 context:
     data:
-        tweet_via: cavilling_elite 
         menu:
             -
                 name: About 
@@ -29,18 +28,13 @@ context:
                 type: page 
                 url: publications.html 
             -
-                name: Blog
-                description: Blog 
-                type: node
-                url: blog
-            -
                 name: Projects 
                 description: List of hobbies and projects 
                 type: page
                 url: projects.html
 meta:
     nodemeta: meta.yaml
-    created: !!timestamp 2014-12-14 00:00:00
+    created: !!timestamp 2016-06-08 00:00:00
     author: Jason W. Sidabras 
 sorter:
     time:
@@ -50,13 +44,3 @@ sorter:
         filters:
             source.kind: html
             meta.listable: true
-tagger:
-    sorter: time
-    archives:
-        blog:
-            source: blog
-            target: blog/tags
-            template: tagged_posts.j2
-            archive_extension: html
-            meta:
-                listable: false

@@ -1,3 +1,0 @@
-extends: page.html 
-default_block: content 
-listable: true
