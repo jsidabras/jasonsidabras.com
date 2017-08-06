@@ -8,9 +8,9 @@ description: Find all the files.
 <script>
 function loadthing()
 {    
+    document.getElementById('vs_iframe').contentWindow.postMessage({msg_type:'load', url:'http://jasonsidabras.com/media/stlfiles/sphere.stl'}, '*');
     document.getElementById('vs_iframe').contentWindow.postMessage({msg_type:'set_shading', type:'smooth'}, '*');
     document.getElementById('vs_iframe').contentWindow.postMessage({msg_type:'set_bgcolor', value:'#EFEFEF'}, '*');
-    document.getElementById('vs_iframe').contentWindow.postMessage({msg_type:'load', url:'http://jasonsidabras.com/media/stlfiles/sphere.stl'}, '*');
 }
 </script>
 {% endblock endhead %}
