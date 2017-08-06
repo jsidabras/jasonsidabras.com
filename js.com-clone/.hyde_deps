@@ -1,6 +1,7 @@
 !!python/unicode '.hyde_deps': []
-!!python/unicode 'index.html': [friends.html, reading.html, base.j2, footer.html,
-  analytics.j2, macros.j2, links.html]
+!!python/unicode 'index.html': [!!python/unicode 'friends.html', !!python/unicode 'links.html',
+  !!python/unicode 'base.j2', !!python/unicode 'footer.html', !!python/unicode 'analytics.j2',
+  !!python/unicode 'macros.j2', !!python/unicode 'reading.html']
 !!python/unicode 'media/.hyde_deps': []
 !!python/unicode 'media/css/base.css': []
 !!python/unicode 'media/css/bib-publication-list.css': []
@@ -23,13 +24,16 @@
 !!python/unicode 'media/js/libs/jquery-1.5.1.min.js': []
 !!python/unicode 'media/js/libs/modernizr-1.7.min.js': []
 !!python/unicode 'media/sidabras.bib': []
-!!python/unicode 'portfolio.html': [friends.html, reading.html, base.j2, footer.html,
-  analytics.j2, macros.j2, links.html]
-!!python/unicode 'projects.html': [friends.html, reading.html, base.j2, footer.html,
-  analytics.j2, macros.j2, links.html]
-!!python/unicode 'publications.html': [!!python/unicode 'friends.html', !!python/unicode 'reading.html',
+!!python/unicode 'portfolio.html': [!!python/unicode 'friends.html', !!python/unicode 'links.html',
   !!python/unicode 'base.j2', !!python/unicode 'footer.html', !!python/unicode 'analytics.j2',
-  !!python/unicode 'macros.j2', !!python/unicode 'links.html']
+  !!python/unicode 'macros.j2', !!python/unicode 'reading.html']
+!!python/unicode 'projects.html': [!!python/unicode 'friends.html', !!python/unicode 'links.html',
+  !!python/unicode 'base.j2', !!python/unicode 'footer.html', !!python/unicode 'analytics.j2',
+  !!python/unicode 'macros.j2', !!python/unicode 'reading.html']
+!!python/unicode 'publications.html': [!!python/unicode 'friends.html', !!python/unicode 'links.html',
+  !!python/unicode 'base.j2', !!python/unicode 'footer.html', !!python/unicode 'analytics.j2',
+  !!python/unicode 'macros.j2', !!python/unicode 'reading.html']
+!!python/unicode 'stlview/.hyde_deps': []
 !!python/unicode 'stlview/index.html': [!!python/unicode 'friends.html', !!python/unicode 'links.html',
   !!python/unicode 'base.j2', !!python/unicode 'footer.html', !!python/unicode 'analytics.j2',
   !!python/unicode 'macros.j2', !!python/unicode 'reading.html']
