@@ -30,3 +30,6 @@
 !!python/unicode 'publications.html': [!!python/unicode 'friends.html', !!python/unicode 'reading.html',
   !!python/unicode 'base.j2', !!python/unicode 'footer.html', !!python/unicode 'analytics.j2',
   !!python/unicode 'macros.j2', !!python/unicode 'links.html']
+!!python/unicode 'stlview/index.html': [!!python/unicode 'friends.html', !!python/unicode 'links.html',
+  !!python/unicode 'base.j2', !!python/unicode 'footer.html', !!python/unicode 'analytics.j2',
+  !!python/unicode 'macros.j2', !!python/unicode 'reading.html']
